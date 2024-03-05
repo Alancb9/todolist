@@ -8,7 +8,7 @@ from .serializers import TodoSerializador
 # Create your views here.
 
 @api_view(["GET", "POST"])
-def toDoLista(request):
+def todo_list(request):
     if request.method ==  "GET":
         todos = ToDo.objects.all()
         serializador = TodoSerializador(todos, many=True)
