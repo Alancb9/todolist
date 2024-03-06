@@ -1,0 +1,171 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+#agregar {
+  background-color: #27ae60;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+.todo-app-title {
+  text-align: center;
+  color: white;
+  font-size: 2em; /* Tamaño del texto */
+  margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Todo List App General Styles */
+.todo-app-container {
+  
+  background-color: #34495e; /* Dark blue background */
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.todo-list {
+  background: #2c3e50; /* Slightly lighter blue */
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 5px;
+}
+
+.todo-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background: #ecf0f1; /* Light gray background for each todo item */
+  color: #2c3e50; /* Dark blue text */
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #7f8c8d; /* Grayed out text */
+}
+
+
+.task {
+  display: flex;
+  align-items: center;
+}
+
+/* Checkbox style */
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 5px;
+}
+
+/* Button Styles */
+button, .edit, .del {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+button#add {
+  background-color: #27ae60; /* Green background */
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 3px;
+
+}
+
+button.cancel {
+  background-color: #c0392b; /* Red background */
+}
+
+/* Modal Styles */
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Form Styles */
+.todo-search, .modal form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: space-around;
+}
+
+input[type="text"] {
+  border: 1px solid #bdc3c7;
+  padding: 10px;
+  border-radius: 3px;
+  flex-grow: 1;
+}
+
+small {
+  color: #e74c3c;
+}
+
+/* Filter Styles */
+.filter-select {
+  background: #f39c12; /* Orange background */
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .todo-list-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .btn-container {
+    margin-top: 10px;
+  }
+}
+
+/* Button Styles */
+.agregar {
+  background-color: #3498db; /* Blue background to match the image */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.agregar:hover {
+  background-color: #2980b9; /* Slightly darker blue on hover for interactive feedback */
+}
+
+#filter {
+  display: flex;
+  justify-content: space-around;
+
+}
+
