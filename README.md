@@ -1,0 +1,1 @@
+video de la app: https://espolec-my.sharepoint.com/:v:/g/personal/kcarriel_espol_edu_ec/EeTu1ws3EHxIkYZ_z1PYNS0Biyc-Ma3ydJUUldFftaPQkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J7be3R
